@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>KillBill App</h1>
+        <div class="input-section">
+            <h3>Add a transaction</h3>
+            <input id = "payer" placeholder="Payer Name" type="text">
+            <input id = "reciever"placeholder="Receiver Name" type="text">
+            <input id = "amount"placeholder="Amount" type="number">
+            <button id = "add-transaction">Add transaction</button>
+        </div>
+
+        <div class="transactions">
+            <h3>Total transactions</h3>
+            <ul id = "transaction-list">
+            </ul>
+        </div>
+
+        <div>
+            <h3>Final settlements</h3>
+            <ul id="settlement-list">
+            </ul>
+            <button id="get-settlement">Get Settlements</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
