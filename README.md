@@ -24,7 +24,7 @@ A simple and intuitive web-based expense-sharing platform built using **HTML**, 
 
 1. Clone the repository:  
    ```bash  
-   git clone # Splitwise - Expense Sharing Platform  
+   git clone # https://github.com/di-co-der/KillBill.git  
 
 
 
